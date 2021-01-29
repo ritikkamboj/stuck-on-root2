@@ -1,0 +1,49 @@
+
+
+*
+{
+    padding:0;
+    margin:0;
+}
+@import url("./partial/variable.css");
+
+@import url("/css/font.css");
+/* @import url("./partial/variable.css"); */
+/* 
+.head_sec img
+{
+    width:75px;
+    height:75px;
+} */
+/* }
+div.container-fluid
+{
+    height:50px;
+} */
+
+
+
+.head_sec .main-menu .navbar .navbar-brand 
+{
+     padding: 0 2rem 0 5rem;                 /*                    it works on logo if we sat it more clearely */
+}
+
+.head_sec .main-menu .navbar
+{
+    padding : 1rem 20rem;                               /*      where is navbar work and where is .navbar-brand  */
+}
+
+.head_sec .main-menu .nav-item .nav-link 
+{
+    /* font-family:"Roboto",cursive; */
+    font-family:var(--roboto);
+
+    text-transform: uppercase;
+    font-weight:500;
+    padding: 1.7rem;
+    color:var(--title-color);
+
+} 
+
+
+

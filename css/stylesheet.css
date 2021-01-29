@@ -1,0 +1,19 @@
+
+
+*
+{
+    padding:0;
+    margin:0;
+}
+
+@import url("/css/font.css");
+
+.head_sec img
+{
+    width:75px;
+    height:75px;
+}
+div.container-fluid
+{
+    height:50px;
+}
